@@ -1,0 +1,28 @@
+Data Description
+----------
+test data has (98550, 5) and 5 columns.
+test data columns: Index(['id', 'date', 'country', 'store', 'product'], dtype='object')
+test data head:        id        date country              store             product
+0  230130  2017-01-01  Canada  Discount Stickers   Holographic Goose
+1  230131  2017-01-01  Canada  Discount Stickers              Kaggle
+2  230132  2017-01-01  Canada  Discount Stickers        Kaggle Tiers
+3  230133  2017-01-01  Canada  Discount Stickers            Kerneler
+4  230134  2017-01-01  Canada  Discount Stickers  Kerneler Dark Mode
+----------
+id has [230130 230131 230132 ... 328677 328678 328679].
+id has 98550 unique values.
+----------
+date has ['2017-01-01' '2017-01-02' '2017-01-03' ... '2019-12-29' '2019-12-30'
+ '2019-12-31'].
+date has 1095 unique values.
+----------
+country has ['Canada' 'Finland' 'Italy' 'Kenya' 'Norway' 'Singapore'].
+country has 6 unique values.
+----------
+store has ['Discount Stickers' 'Stickers for Less' 'Premium Sticker Mart'].
+store has 3 unique values.
+----------
+product has ['Holographic Goose' 'Kaggle' 'Kaggle Tiers' 'Kerneler'
+ 'Kerneler Dark Mode'].
+product has 5 unique values.
+----------

@@ -1,0 +1,31 @@
+Data Description
+----------
+train data has (230130, 6) and 6 columns.
+train data columns: Index(['id', 'date', 'country', 'store', 'product', 'num_sold'], dtype='object')
+train data head:    id        date country              store             product  num_sold
+0   0  2010-01-01  Canada  Discount Stickers   Holographic Goose       NaN
+1   1  2010-01-01  Canada  Discount Stickers              Kaggle     973.0
+2   2  2010-01-01  Canada  Discount Stickers        Kaggle Tiers     906.0
+3   3  2010-01-01  Canada  Discount Stickers            Kerneler     423.0
+4   4  2010-01-01  Canada  Discount Stickers  Kerneler Dark Mode     491.0
+----------
+id has [     0      1      2 ... 230127 230128 230129].
+id has 230130 unique values.
+----------
+date has ['2010-01-01' '2010-01-02' '2010-01-03' ... '2016-12-29' '2016-12-30'
+ '2016-12-31'].
+date has 2557 unique values.
+----------
+country has ['Canada' 'Finland' 'Italy' 'Kenya' 'Norway' 'Singapore'].
+country has 6 unique values.
+----------
+store has ['Discount Stickers' 'Stickers for Less' 'Premium Sticker Mart'].
+store has 3 unique values.
+----------
+product has ['Holographic Goose' 'Kaggle' 'Kaggle Tiers' 'Kerneler'
+ 'Kerneler Dark Mode'].
+product has 5 unique values.
+----------
+num_sold has [  nan  973.  906. ... 3446. 2266. 3996.].
+num_sold has 4037 unique values.
+----------

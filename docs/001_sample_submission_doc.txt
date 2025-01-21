@@ -1,0 +1,17 @@
+Data Description
+----------
+sample_submission data has (98550, 2) and 2 columns.
+sample_submission data columns: Index(['id', 'num_sold'], dtype='object')
+sample_submission data head:        id  num_sold
+0  230130       100
+1  230131       100
+2  230132       100
+3  230133       100
+4  230134       100
+----------
+id has [230130 230131 230132 ... 328677 328678 328679].
+id has 98550 unique values.
+----------
+num_sold has [100].
+num_sold has 1 unique values.
+----------
