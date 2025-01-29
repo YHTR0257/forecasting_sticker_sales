@@ -136,7 +136,7 @@ ENV/
 env.bak/
 venv.bak/
 .DS_Store
-/modified_data/*
+/modified_datas/*
 
 # Spyder project settings
 .spyderproject
